@@ -1,14 +1,16 @@
-void setup()                // run once, when the sketch starts
+void setup()
 {
-  Serial.begin(9600);       // set up Serial library at 9600 bps
-  Serial.println("Hello world!");
- Serial.println("Hello world!");
-Serial.println("Hello world!");
-Serial.println("Hello world!");// prints with brake line
+  Serial.begin(9600);
+  Serial.println("Escull el numero de l'operacio que vols realitzar?");
+  Serial.println("1. Comprovar numero de tarjeta de credit");
+  delay(1000);
+  Serial.println("2. Comprovar numero de compte bancari");
+  delay(1000);
+  Serial.println("3. Buscar un digit perdut de tarjeta de credit");
+  delay(1000);
 }
 
-void loop()   // run over and over again
+void loop()
 {
-		   // do nothing
-}
 
+}
